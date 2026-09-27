@@ -1,0 +1,14 @@
+[project]
+name = "user-agent-parser"
+version = "0.1.0"
+description = "Extract browser, engine, operating system, and device type from User-Agent header strings using pattern matching."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
